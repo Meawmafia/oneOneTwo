@@ -18,7 +18,7 @@ client.on('message', message => {
         const member = message.guild.member(user);
         if (member) {
           
-          for (i = 0 ; i < 3 ; i++){
+          for (i = 0 ; i < 6 ; i++){
 
             member.voice.setChannel('694411779291217962')
             member.voice.setChannel('574248112038608927')
