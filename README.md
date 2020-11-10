@@ -1,2 +1,2 @@
 # oneOneTwo
-Discord bot
+My discord bot for prank ma friend 
