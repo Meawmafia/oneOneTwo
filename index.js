@@ -81,6 +81,13 @@ client.on('message', message => {
   if (message.content.startsWith(`${prefix}News`)) {
     message.channel.send(NewsEmbed);
   }
+  if (message.content.startsWith(`${prefix}file`)) {
+    const exampleEmbed = new Discord.MessageEmbed()
+	.setTitle('Some title')
+	.attachFiles(['https://cdn.discordapp.com/attachments/609803869987536935/798146208894943242/New_Text_Document.txt'])
+	.setImage('');
+    message.channel.send(exampleEmbed);
+  }
 
 //brah
 // else if(command === 'brah'){
